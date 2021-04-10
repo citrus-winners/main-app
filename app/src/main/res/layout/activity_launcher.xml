@@ -12,7 +12,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:scaleType="centerCrop"
-        android:src="@drawable/background_login" />
+        android:src="@drawable/natural_resource" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/fullscreen_content_controls"
