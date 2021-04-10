@@ -1,41 +1,34 @@
 {
   "project_info": {
-    "project_number": "1092359530880",
-    "project_id": "freshrides-4639f",
-    "storage_bucket": "freshrides-4639f.appspot.com"
+    "project_number": "888754202001",
+    "project_id": "rideshare-f61b6",
+    "storage_bucket": "rideshare-f61b6.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1092359530880:android:0e7d3b89df77eea3a8b965",
+        "mobilesdk_app_id": "1:888754202001:android:169f7f6f854a0c65b92630",
         "android_client_info": {
           "package_name": "com.hypertrack.ridesharing.driver.android.github"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1092359530880-8auftrefcl10av44pnusl2l6paffbpiu.apps.googleusercontent.com",
+          "client_id": "888754202001-9h6l5sbg0pbteoiiums82fufrcvgr820.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyApOYvOz3fed89sQVzvfaBMFxaaIXgUY2o"
+          "current_key": "AIzaSyC2vhZjthBcD0S4DsTBPI--Rg-rC33axyo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1092359530880-8auftrefcl10av44pnusl2l6paffbpiu.apps.googleusercontent.com",
+              "client_id": "888754202001-9h6l5sbg0pbteoiiums82fufrcvgr820.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "1092359530880-asqdeomiun472o4niuq0fjlafjfmpodg.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.hypertrack.ridesharing.driver.ios.github"
-              }
             }
           ]
         }
@@ -43,35 +36,28 @@
     },
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1092359530880:android:2ec5fcc5fa6e4171a8b965",
+        "mobilesdk_app_id": "1:888754202001:android:ac3ebb0726f53a50b92630",
         "android_client_info": {
           "package_name": "com.hypertrack.ridesharing.rider.android.github"
         }
       },
       "oauth_client": [
         {
-          "client_id": "1092359530880-8auftrefcl10av44pnusl2l6paffbpiu.apps.googleusercontent.com",
+          "client_id": "888754202001-9h6l5sbg0pbteoiiums82fufrcvgr820.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyApOYvOz3fed89sQVzvfaBMFxaaIXgUY2o"
+          "current_key": "AIzaSyC2vhZjthBcD0S4DsTBPI--Rg-rC33axyo"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "1092359530880-8auftrefcl10av44pnusl2l6paffbpiu.apps.googleusercontent.com",
+              "client_id": "888754202001-9h6l5sbg0pbteoiiums82fufrcvgr820.apps.googleusercontent.com",
               "client_type": 3
-            },
-            {
-              "client_id": "1092359530880-asqdeomiun472o4niuq0fjlafjfmpodg.apps.googleusercontent.com",
-              "client_type": 2,
-              "ios_info": {
-                "bundle_id": "com.hypertrack.ridesharing.driver.ios.github"
-              }
             }
           ]
         }
