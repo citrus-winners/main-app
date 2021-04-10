@@ -34,7 +34,6 @@ public class RegistrationActivity extends AppCompatActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration);
-
         String json = MySharedPreferences.get(this).getString(MySharedPreferences.USER_KEY, "{}");
         User user = gson.fromJson(json, User.class);
         next(user);
@@ -42,15 +41,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
     public void next(final User user) {
         if (TextUtils.isEmpty(user.role)) {
-            if (getPackageName().contains(User.USER_ROLE_DRIVER)) {
-                user.role = User.USER_ROLE_DRIVER;
-                next(user);
-            } else if (getPackageName().contains(User.USER_ROLE_RIDER)) {
-                user.role = User.USER_ROLE_RIDER;
-                next(user);
-            } else {
-                addFragment(RoleRegistrationFragment.newInstance(user));
-            }
+            addFragment(RoleRegistrationFragment.newInstance(user));
         } else if (TextUtils.isEmpty(user.name)) {
             addFragment(NameRegistrationFragment.newInstance(user));
         } else if (TextUtils.isEmpty(user.id)) {
