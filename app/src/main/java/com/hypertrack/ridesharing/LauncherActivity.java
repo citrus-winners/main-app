@@ -2,9 +2,12 @@ package com.hypertrack.ridesharing;
 
 import android.app.Activity;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
+import android.view.Window;
+import android.view.WindowManager;
 import android.view.animation.AccelerateDecelerateInterpolator;
 
 import com.daimajia.androidanimations.library.Techniques;
