@@ -1,7 +1,7 @@
 <resources>
     <string name="login">LOGIN</string>
-    <string name="uber_for_x">Uber for X</string>
-    <string name="hypertrack">HyperTrack</string>
+    <string name="uber_for_x">FreshRides</string>
+    <string name="hypertrack">Reduce and Ride</string>
     <string name="driver">Driver</string>
     <string name="are_you">Are you?</string>
     <string name="rider">Rider</string>
