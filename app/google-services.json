@@ -7,6 +7,35 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:888754202001:android:c43e24139253ebd9b92630",
+        "android_client_info": {
+          "package_name": "com.hypertrack.quickstart.android.github"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888754202001-9h6l5sbg0pbteoiiums82fufrcvgr820.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC2vhZjthBcD0S4DsTBPI--Rg-rC33axyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888754202001-9h6l5sbg0pbteoiiums82fufrcvgr820.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:888754202001:android:169f7f6f854a0c65b92630",
         "android_client_info": {
           "package_name": "com.hypertrack.ridesharing.driver.android.github"
