@@ -39,7 +39,7 @@
 
         <meta-data
             android:name="com.hypertrack.sdk.PUB_KEY"
-            android:value="YOUR_PUBLISHABLE_KEY_HERE" />
+            android:value="k2pkMppbLcz9pDoQ6DZPJaUOTbY7Zlp6SS_17zZRkdzSxIV-TzdMg8hze_70sgBEzGF5rRyyJEuxEhyNQC74mg" />
 
         <meta-data
             android:name="com.google.android.gms.version"
