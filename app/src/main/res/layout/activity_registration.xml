@@ -3,7 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp"
-    android:background="@color/colorPrimaryDark">
+    android:background="@color/quantum_amber50">
 
     <FrameLayout
         android:id="@+id/fragment_frame"
