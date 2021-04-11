@@ -50,6 +50,7 @@ public class NameRegistrationFragment extends Fragment {
 
     @Override
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
+        // TODO: Stop keyboard from covering inputs
         super.onViewCreated(view, savedInstanceState);
 
         View driver = view.findViewById(R.id.driver);

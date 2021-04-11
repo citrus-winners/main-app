@@ -89,6 +89,8 @@ public class RiderMapFragment extends MapFragment<RiderMapPresenter> implements 
         dropoffText = chooseDestSnackbar.getView().findViewById(R.id.dropoff);
         dropoffText2 = bookRideSnackbar.getView().findViewById(R.id.dropoff_text);
         pickupText = bookRideSnackbar.getView().findViewById(R.id.pickup_text);
+
+        view.findViewById(R.id.treeCounter).setVisibility(View.VISIBLE);
     }
 
     @Override
