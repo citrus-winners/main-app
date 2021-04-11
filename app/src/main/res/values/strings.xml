@@ -5,6 +5,7 @@
     <string name="driver">Driver</string>
     <string name="are_you">Are you?</string>
     <string name="rider">Rider</string>
+    <string name="registration_header">Sign Up</string>
     <string name="enter_you_name">Enter your name</string>
     <string name="enter_you_phone">Enter your phone</string>
     <string name="enter_car_model">car model</string>
