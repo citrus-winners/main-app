@@ -7,6 +7,7 @@ import android.content.pm.PackageManager;
 import android.net.Uri;
 import android.os.Bundle;
 import android.provider.Settings;
+import android.util.Log;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AlertDialog;
@@ -28,7 +29,7 @@ public class MainActivity extends FragmentActivity {
 
     public static final int REQUEST_ACCESS_FINE_LOCATION = 10;
 
-    public static final String GOOGLE_API_KEY = "AIzaSyBKZejrZNZpLlemrH28Nc46XzHsRSVRxKI";
+    public static final String GOOGLE_API_KEY = "IzaSyC2vhZjthBcD0S4DsTBPI--Rg-rC33axyo";
 
     private User user;
 
