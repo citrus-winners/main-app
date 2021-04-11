@@ -41,9 +41,7 @@ public class RegistrationActivity extends AppCompatActivity {
 
     public void next(final User user) {
         if (TextUtils.isEmpty(user.role)) {
-            user.role = User.USER_ROLE_RIDER;
-            next(user);
-//            addFragment(RoleRegistrationFragment.newInstance(user));
+            addFragment(RoleRegistrationFragment.newInstance(user));
         } else if (TextUtils.isEmpty(user.name)) {
             Log.e(TAG, "next: bruh");
             addFragment(NameRegistrationFragment.newInstance(user));
