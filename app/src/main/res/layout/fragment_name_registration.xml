@@ -10,10 +10,9 @@
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="1"
         android:layout_marginTop="96dp"
-        android:src="@drawable/choices"
-        />
+        android:layout_weight="1"
+        android:src="@drawable/choices" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -27,31 +26,29 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="24sp"
             android:text="@string/registration_header"
-            android:textSize="32sp"
-            />
+            android:textSize="32sp" />
 
         <com.google.android.material.textfield.TextInputLayout
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            >
+            android:layout_height="wrap_content">
 
             <com.google.android.material.textfield.TextInputEditText
                 android:id="@+id/username"
                 android:layout_width="match_parent"
-                android:textColor="@color/black"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
                 android:autofillHints="username"
                 android:hint="@string/enter_you_name"
                 android:inputType="text"
+                android:textColor="@color/black"
 
                 />
         </com.google.android.material.textfield.TextInputLayout>
 
         <com.google.android.material.textfield.TextInputLayout
-            android:layout_width="match_parent"
             style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
 
@@ -69,33 +66,43 @@
 
         <LinearLayout
             android:id="@+id/driver"
+            android:visibility="gone"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:orientation="horizontal"
-            android:visibility="gone"
             android:weightSum="5">
 
-            <EditText
-                android:id="@+id/car_model"
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginEnd="8dp"
-                android:layout_weight="3"
-                android:hint="@string/enter_car_model"
-                android:inputType="text" />
+                android:layout_weight="3">
 
-            <EditText
-                android:id="@+id/driver_licence"
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/car_model"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="8dp"
+                    android:hint="@string/enter_car_model"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
+
+            <com.google.android.material.textfield.TextInputLayout
+                style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_gravity="center"
-                android:layout_marginStart="8dp"
-                android:layout_weight="2"
-                android:hint="@string/enter_driver_licence"
-                android:inputType="text" />
+                android:layout_weight="2">
 
+                <com.google.android.material.textfield.TextInputEditText
+                    android:id="@+id/driver_licence"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="8dp"
+                    android:layout_weight="2"
+                    android:hint="@string/enter_driver_licence"
+                    android:inputType="text" />
+            </com.google.android.material.textfield.TextInputLayout>
         </LinearLayout>
     </LinearLayout>
 
