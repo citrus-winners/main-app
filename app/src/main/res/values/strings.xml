@@ -8,8 +8,8 @@
     <string name="registration_header">Sign Up</string>
     <string name="enter_you_name">Enter your name</string>
     <string name="enter_you_phone">Enter your phone</string>
-    <string name="enter_car_model">car model</string>
-    <string name="enter_driver_licence">driver licence</string>
+    <string name="enter_car_model">Car model</string>
+    <string name="enter_driver_licence">Driver license</string>
     <string name="pickup">Pickup</string>
     <string name="dropoff">Dropoff</string>
     <string name="save">Save</string>
