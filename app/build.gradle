@@ -45,6 +45,10 @@ android {
             resValue "string", "app_name", "Freshrides"
         }
     }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
 }
 
 repositories {
@@ -80,6 +84,7 @@ dependencies {
     implementation 'com.hypertrack:hypertrack:4.0.0'
     implementation 'com.hypertrack:hypertrack-views:0.8.5'
     implementation 'com.hypertrack:maps-google:0.1.1'
+    implementation project(path: ':flutter')
 
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test:runner:1.2.0'
