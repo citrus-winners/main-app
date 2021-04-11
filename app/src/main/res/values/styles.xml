@@ -36,6 +36,13 @@
         <item name="windowNoTitle">true</item>
     </style>
 
+    <style name="CustomShapeAppearance">
+        <item name="cornerSizeTopLeft">80dp</item>
+        <item name="cornerSizeBottomLeft">80dp</item>
+        <item name="cornerSizeBottomRight">80dp</item>
+        <item name="cornerSizeTopRight">80dp</item>
+    </style>
+
     <style name="FullscreenTheme" parent="AppTheme">
         <item name="android:actionBarStyle">@style/FullscreenActionBarStyle</item>
         <item name="android:windowActionBarOverlay">true</item>
@@ -67,7 +74,7 @@
         <item name="android:windowBackground">@android:color/transparent</item>
     </style>
 
-    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert"/>
+    <style name="AlertDialogTheme" parent="Theme.AppCompat.Light.Dialog.Alert" />
 
     <!-- snackbar style -->
     <style name="SnackBarStyle" parent="Widget.MaterialComponents.Snackbar">
@@ -111,8 +118,8 @@
         <item name="android:ellipsize">end</item>
         <item name="android:gravity">center_vertical</item>
         <item name="android:lines">1</item>
-        <item name="android:paddingStart">16dp</item>
-        <item name="android:paddingEnd">16dp</item>
+        <item name="android:paddingStart">80dp</item>
+        <item name="android:paddingEnd">80dp</item>
     </style>
 
     <style name="CancelButton">
