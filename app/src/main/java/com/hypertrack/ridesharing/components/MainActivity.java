@@ -29,7 +29,7 @@ public class MainActivity extends FragmentActivity {
 
     public static final int REQUEST_ACCESS_FINE_LOCATION = 10;
 
-    public static final String GOOGLE_API_KEY = "IzaSyC2vhZjthBcD0S4DsTBPI--Rg-rC33axyo";
+    public static final String GOOGLE_API_KEY = "AIzaSyC2vhZjthBcD0S4DsTBPI--Rg-rC33axyo";
 
     private User user;
 
