@@ -36,13 +36,13 @@ android {
             dimension "version"
             applicationIdSuffix ".driver.android.github"
             versionNameSuffix "-driver"
-            resValue "string", "app_name", "Ridesharing Driver"
+            resValue "string", "app_name", "Freshrides Driver"
         }
         rider {
             dimension "version"
             applicationIdSuffix ".rider.android.github"
             versionNameSuffix "-rider"
-            resValue "string", "app_name", "Ridesharing Rider"
+            resValue "string", "app_name", "Freshrides"
         }
     }
 }

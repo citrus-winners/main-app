@@ -33,13 +33,13 @@
         android:textColor="@color/black"
         app:backgroundTint="#efefef"
         app:icon="@drawable/ic_nature_foreground"
-        app:iconPadding="0dp"
         app:iconGravity="textStart"
+        app:iconPadding="0dp"
         app:iconSize="30dp"
         app:layout_anchor="@id/recycler_view"
         app:layout_anchorGravity="end|bottom"
         app:maxImageSize="16dp"
-
+        app:rippleColor="@null"
         app:shapeAppearance="@style/CustomShapeAppearance" />
 
 
